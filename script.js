@@ -13,6 +13,7 @@ class Job {
     setActivities() {
         var i;
         var j = arguments.length;
+        this.activities = [];
         for (i = 0; i < j; i++) {
             this.activities[i] = arguments[i];
         }
