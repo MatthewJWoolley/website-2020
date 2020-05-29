@@ -34,3 +34,17 @@ class Job {
         console.log(result);
     }
 }
+
+var workExperience = [];
+
+var adobe = new Job("Adobe");
+adobe.setDates("01/10/2018", "present");
+adobe.setTitle("Technical Consultant");
+adobe.setTitle("Shoreditch, London");
+adobe.setActivities(
+    "Design, implement, and maintain SaaS solutions for a variety of clients. Other Adobe Consulting clients include PlayStation and Ubisoft.",
+    "Present to senior stakeholders, for example /'Deputy CIO/' of big 4 accountancy firm. Resulted in a change of strategy.",
+    "Produce and maintain a wide variety of task lists, tickets, risk and time management tools depending on customer requirements - exposure to a wide variety of project management techniques.",
+    "Collaborate with experts in different teams, roles, and geographies and enable colleagues based on their input."
+)
+workExperience.push(adobe)
